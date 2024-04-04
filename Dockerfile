@@ -1,5 +1,5 @@
 # Usa una imagen de Node.js como base
-FROM node:14 as builder
+FROM node:14.18.3 as builder
 
 # Establece el directorio de trabajo en /app
 WORKDIR /app

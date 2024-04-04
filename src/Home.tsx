@@ -1,6 +1,6 @@
 import { useUser } from "@clerk/clerk-react";
 import { Link } from "react-router-dom";
-import axios from "./config/axiosInstance";
+import axios from "axios"
 // import axios from "axios";
 export default function IndexPage() {
   const { user } = useUser();
