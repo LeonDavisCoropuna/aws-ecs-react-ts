@@ -23,4 +23,4 @@ FROM nginx
 # Configura Nginx para que sirva la aplicación en el puerto 80
 EXPOSE 80
 # Copia los archivos compilados de la etapa de construcción a la carpeta de archivos estáticos de Nginx
-COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=builder /app/dist /usr/share/nginx/html
