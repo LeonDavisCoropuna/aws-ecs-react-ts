@@ -1,4 +1,4 @@
-import { useAuth, useUser } from "@clerk/clerk-react";
+import { useUser } from "@clerk/clerk-react";
 import { Link } from "react-router-dom";
 import axios from "./config/axiosInstance";
 // import axios from "axios";
